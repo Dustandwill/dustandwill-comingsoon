@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dust & Will</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 1rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ccc;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    header p {
+      color: #666;
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #999;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
   <nav>
-    <ul class="nav">
+    <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Articles</a></li>
       <li><a href="#">Books</a></li>
@@ -18,19 +88,17 @@
   </nav>
 
   <header>
-    <h1 class="title">Dust & Will</h1>
-    <p class="tagline">Discipline. Grit. Choosing the hard path.</p>
+    <h1>Dust & Will</h1>
+    <p>Discipline. Grit. Choosing the hard path.</p>
   </header>
 
   <main>
-    <section class="intro">
-      <h2>Welcome to the Journey</h2>
-      <p>This is where raw discipline meets brutal honesty. No fluff. Just the truth, one post at a time.</p>
-    </section>
+    <h2>Welcome to the Journey</h2>
+    <p>This is where raw discipline meets brutal honesty. No fluff. Just the truth, one post at a time.</p>
   </main>
 
   <footer>
-    <p>&copy; 2025 Dust & Will. All rights reserved.</p>
+    &copy; 2025 Dust & Will. All rights reserved.
   </footer>
 </body>
 </html>
