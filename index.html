@@ -1,52 +1,31 @@
+<!-- index.html (Home Page) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dust & Will</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <nav class="navbar">
-      <div class="nav-container">
-        <a href="#" class="logo">Dust & Will</a>
-        <ul class="nav-links">
-          <li><a href="#articles">Articles</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-    <h1>Dust & Will</h1>
-    <p class="tagline">Writing what most people avoid facing</p>
+    <h1 class="title">Dust & Will</h1>
+    <p class="tagline">Discipline. Grit. Choosing the hard path.</p>
   </header>
 
-  <main class="container">
+  <main>
     <section class="intro">
-      <p>This site is launching soon. Until then, stay strong, stay building.</p>
-    </section>
-
-    <section id="articles" class="blog">
-      <h2>Articles</h2>
-      <ul class="post-list">
-        <li><a href="#">How to Start Loving Hard Things</a></li>
-        <li><a href="#">My 10-Day Vipassana Experience</a></li>
-      </ul>
-    </section>
-
-    <section id="about" class="about">
-      <h2>About</h2>
-      <p>Dust & Will is about discipline, grit, and writing the truths most avoid. This space will be home to thoughts, essays, and hard-earned insights.</p>
-    </section>
-
-    <section id="contact" class="newsletter">
-      <h2>Stay in the Loop</h2>
-      <p>Join the newsletter to know when Dust & Will fully launches.</p>
-      <form>
-        <input type="email" placeholder="Enter your email" />
-        <button type="submit">Subscribe</button>
-      </form>
+      <h2>Welcome to the Journey</h2>
+      <p>This is where raw discipline meets brutal honesty. No fluff. Just the truth, one post at a time.</p>
     </section>
   </main>
 
@@ -55,3 +34,57 @@
   </footer>
 </body>
 </html>
+
+<!-- style.css (Minimal styling) -->
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #fefefe;
+  color: #222;
+  line-height: 1.6;
+}
+
+nav ul.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #222;
+}
+
+nav ul.nav li {
+  margin: 0 1rem;
+}
+
+nav ul.nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.tagline {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+  margin-top: 2rem;
+}
