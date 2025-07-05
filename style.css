@@ -19,9 +19,13 @@ header {
   padding: 10px 20px;
 }
 
-.logo-brand {
-  display: flex;
-  align-items: center;
+.logo-brand img {
+  height: 40px; /* fixed height */
+  width: auto;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
 }
 
 .logo-brand img {
