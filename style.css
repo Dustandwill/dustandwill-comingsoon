@@ -47,7 +47,12 @@ main {
   margin-top: 50px;
 }
 
-main h2 {
+.hero {
+  margin-top: 80px;
+  padding: 50px 20px;
+}
+
+.hero h2 {
   font-size: 48px;
   color: #1a1a1a;
 }
